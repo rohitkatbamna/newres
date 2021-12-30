@@ -12,20 +12,21 @@ function Resumepagemaindetails(){
                         <div class="card-body resume-page-main-details-typical">
                             <div className="text-end">
                                 <Typical
-                                    steps={['/C/Users/rohit>', 1000, '/C/Users/rohit> Hello There. You are at rohitkatbamna.com!!', 1000]}
+                                    steps={['/C/Users/rohit>', 3000, '/C/Users/rohit> Hello There. You are at rohitkatbamna.com!!', 3000]}
                                     loop={1}
                                     wrapper="p"
                                 />
                             </div>
                             <div className="text-right resume-page-main-details-hi-rohit">
-                                <p>Hi I am Rohit Katbamna</p>
-                            </div>
-                            <div className="text-right resume-page-main-details-i-am">
                                 <Typical
-                                    steps={['I am', 1000, ' I am web developer', 1000 , ' I am react developer', 1000, ' I am HTML developer', 1000 , ' I am font end developer', 1000 , ' I am python developer', 1000]}
+                                    steps={['hello world', 3000, 'ハローワールド', 3000 , 'हैलो वर्ल्ड', 3000, 'કેમ છો દુનિયા', 3000 , '전 세계 여러분 안녕하세요', 3000 ,' မင်္ဂလာပါကမ္ဘာလောက',3000, 
+                                    'Salut tout le monde', 3000 ,'হ্যালো ওয়ার্ল্ড', 3000 ,'Всем привет', 3000,'विश्वाला नमस्कार', 3000]}
                                     loop={Infinity}
                                     wrapper="p"
                                 />
+                            </div>
+                            <div className="text-right resume-page-main-details-i-am">
+                                
                             </div>
                         </div>
                     </div>
