@@ -26,10 +26,7 @@ function Resumepagemaindetails(){
                                 />
                             </div>
                             <div className="text-right resume-page-main-details-i-am">
-                                <h1>I am Rohit Katbamna</h1> 
-                            </div>
-                            <div className="text-right resume-page-main-details-who-i-am">
-                                <h2>I am react developer</h2>
+                                <h1>I develop react based websites </h1> 
                             </div>
                         </div>
                     </div>
