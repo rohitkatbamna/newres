@@ -26,7 +26,14 @@ function Resumepagemaindetails(){
                                 />
                             </div>
                             <div className="text-right resume-page-main-details-i-am">
-                                <h1>I develop react based websites </h1> 
+                                <h1>I develop react based websites</h1> 
+                            </div>
+                            <div className="text-right resume-page-main-details-summary-what-i-am mt-5">
+                                <h2>Something to say about myself</h2>
+                                <h3>Front End Developer with experience in blending art of design with skill 
+                                    of programming to deliver engaging user experience through efficient website 
+                                    development, proactive feature optimization, and relentless debugging.
+                                </h3>
                             </div>
                         </div>
                     </div>
