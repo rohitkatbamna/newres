@@ -10,3 +10,13 @@
 .resume-page-main-details-hi-rohit{
     font-size: 3em;
 }
+.resume-page-main-details-what-skills-i-have-list{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+    font-size: 2em;
+}

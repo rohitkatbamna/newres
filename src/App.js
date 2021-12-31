@@ -5,10 +5,10 @@ import Resumepagemaindetails from './components/resumepage/resumepage-main-detai
 
 function App() {
   return (
-    <>
-    <Resumepagenavbar/>
-    <Resumepagemaindetails />
-    </>
+    <div>
+      <Resumepagenavbar/>
+      <Resumepagemaindetails />
+    </div>
   );
 }
 
