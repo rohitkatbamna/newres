@@ -43,6 +43,7 @@ function Resumepagemaindetails(){
                                     <li>Bootstrap</li>
                                     <li>Responsive Web Design</li>
                                     <li>React</li>
+                                    <li>Redux</li>
                                 </ul>
                             </div>
                         </div>
