@@ -19,8 +19,8 @@ function Resumepagemaindetails(){
                             </div>
                             <div className="text-right resume-page-main-details-hi-rohit">
                                 <Typical
-                                    steps={['hello world', 3000, 'ハローワールド', 3000 , 'हैलो वर्ल्ड', 3000, 'કેમ છો દુનિયા', 3000 , '전 세계 여러분 안녕하세요', 3000 ,' မင်္ဂလာပါကမ္ဘာလောက',3000, 
-                                    'Salut tout le monde', 3000 ,'হ্যালো ওয়ার্ল্ড', 3000 ,'Всем привет', 3000,'विश्वाला नमस्कार', 3000]}
+                                    steps={['hello world', 3000, 'ハローワールド', 3000 , 'नमस्ते दुनिया', 3000, 'કેમ છો દુનિયા', 3000 , '전 세계 여러분 안녕하세요', 3000 ,' Hej världen',3000, 
+                                    'Salut tout le monde', 3000 ,'হ্যালো ওয়ার্ল্ড', 3000 ,'Всем привет', 3000,'Γειά σου Κόσμε', 3000, 'Rytsas vys',3000, 'ሰላም ልዑል', 3000]}
                                     loop={Infinity}
                                     wrapper="p"
                                 />
