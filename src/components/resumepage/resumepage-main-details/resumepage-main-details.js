@@ -44,6 +44,8 @@ function Resumepagemaindetails(){
                                     <li>Responsive Web Design</li>
                                     <li>React</li>
                                     <li>Redux</li>
+                                    <li>Front-End Development</li>
+                                    
                                 </ul>
                             </div>
                         </div>
