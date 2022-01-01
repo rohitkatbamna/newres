@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBootstrap, faCss3Alt, faHtml5, faJsSquare, faNodeJs, faPython, faReact, faSass } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faLaptop, faMobile } from "@fortawesome/free-solid-svg-icons";
 import reduxlogo from '../../../assets/redux.svg';
+import restapilogo from '../../../assets/api.png';
 
 function Resumepagemaindetails(){
     return(
@@ -38,6 +39,7 @@ function Resumepagemaindetails(){
                                     <li><FontAwesomeIcon icon={faHtml5}/> HTML</li>
                                     <li><FontAwesomeIcon icon={faCss3Alt} /> CSS</li>
                                     <li><FontAwesomeIcon icon={faJsSquare}/> JavaScript</li>
+                                    <li className="d-flex flex-wrap justify-content-center align-items-center"><img src={restapilogo} style={{backgroundColor:'white',height:'30px',width:'30px', marginRight:'5px'}}/> REST API</li>
                                     <li><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</li>
                                     <li><FontAwesomeIcon icon={faMobile}/> <FontAwesomeIcon icon={faLaptop}/> <FontAwesomeIcon icon={faDesktop}/> Responsive Web Design</li>
                                     <li><FontAwesomeIcon icon={faReact}/> React</li>
@@ -45,7 +47,6 @@ function Resumepagemaindetails(){
                                     <li><FontAwesomeIcon icon={faNodeJs}/> Node.js</li>
                                     <li><FontAwesomeIcon icon={faSass}/> SASS</li>
                                     <li><FontAwesomeIcon icon={faPython}/> Python</li>
-                                    <li><FontAwesomeIcon icon={faPython}/> REST API</li>
                                 </ul>
                             </div>
                         </div>
