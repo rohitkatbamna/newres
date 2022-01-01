@@ -45,6 +45,7 @@ function Resumepagemaindetails(){
                                     <li><FontAwesomeIcon icon={faNodeJs}/> Node.js</li>
                                     <li><FontAwesomeIcon icon={faSass}/> SASS</li>
                                     <li><FontAwesomeIcon icon={faPython}/> Python</li>
+                                    <li><FontAwesomeIcon icon={faPython}/> REST API</li>
                                 </ul>
                             </div>
                         </div>
