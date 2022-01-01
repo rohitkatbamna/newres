@@ -7,7 +7,7 @@ function Resumepagenavbar(){
     return(
         <nav className="navbar navbar-expand-lg  navbar-dark resume-page-navbar-everything">
             <div className="container-fluid">
-                <a className="navbar-brand resume-page-navbar-brand" href="#"> <FontAwesomeIcon icon={faDev} /> <span>Rohit Katbamna</span></a>
+                <a className="navbar-brand resume-page-navbar-brand" href="#"> <FontAwesomeIcon icon={faDev} /> <span className="resume-page-navbar-brand-my-name">Rohit Katbamna</span></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
                 </button>
