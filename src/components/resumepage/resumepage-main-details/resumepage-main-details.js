@@ -6,6 +6,7 @@ import { faBootstrap, faCss3Alt, faHtml5, faJsSquare, faNodeJs, faPython, faReac
 import { faDesktop, faLaptop, faMobile } from "@fortawesome/free-solid-svg-icons";
 import reduxlogo from '../../../assets/redux.svg';
 import restapilogo from '../../../assets/api.png';
+import { Link } from "react-router-dom";
 
 function Resumepagemaindetails(){
     return(
@@ -55,7 +56,7 @@ function Resumepagemaindetails(){
             </div>
             <div className="row">
                 <div className="col-12">
-                    <p className="fs-3 text-white mt-3">Check out projects I have done</p>
+                    <p className="fs-3 text-white mt-3">Check out projects I have done <Link to='/projects' style={{color:'white'}}>Here</Link></p>
                 </div>
             </div>
         </div>

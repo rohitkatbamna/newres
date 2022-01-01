@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
-import Resumepagenavbar from './components/resumepage/resumepage-navbar/resumepage-navbar';
-import Resumepagemaindetails from './components/resumepage/resumepage-main-details/resumepage-main-details';
+import Resumelandingpage from './pages/resumelandingpage';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Educationdetailspage from './pages/educationdetailspage';
 
 function App() {
   return (
     <div>
-      <Resumepagenavbar/>
-      <Resumepagemaindetails />
+      <Router>
+        <Routes>
+          <Route path='/' element={<Resumelandingpage />} exact/>
+          <Route path='/education' element={<Educationdetailspage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
