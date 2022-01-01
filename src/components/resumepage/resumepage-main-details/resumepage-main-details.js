@@ -53,6 +53,11 @@ function Resumepagemaindetails(){
                     </div>
                 </div>
             </div>
+            <div className="row">
+                <div className="col-12">
+                    <p className="fs-3 text-white mt-3">Check out projects I have done</p>
+                </div>
+            </div>
         </div>
         </>
     );
