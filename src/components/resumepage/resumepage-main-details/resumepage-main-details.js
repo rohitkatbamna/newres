@@ -56,6 +56,11 @@ function Resumepagemaindetails(){
             </div>
             <div className="row">
                 <div className="col-12">
+
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
                     <p className="fs-3 text-white mt-3">Check out projects I have done <Link to='/projects' style={{color:'white'}}>Here</Link></p>
                 </div>
             </div>
