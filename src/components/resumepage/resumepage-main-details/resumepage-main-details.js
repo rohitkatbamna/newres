@@ -54,9 +54,15 @@ function Resumepagemaindetails(){
                     </div>
                 </div>
             </div>
-            <div className="row">
+            <div className="row mt-5">
                 <div className="col-12">
-                    
+                    <div className="card text-white" style={{ borderRadius:'16px',borderTop:'10px solid white', borderBottom:'10px solid white'}}>
+                        <div className="card-body" style={{backgroundColor:'black'}}>
+                            <p className="fs-4">Education I have done</p>
+                            <p className="fs-3">Degree : Bachelor of Engineering</p>
+                            <p className="fs-3">Major : Electronics and Telecommunication</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="row">
