@@ -67,10 +67,10 @@ function Resumepagemaindetails(){
             </div>
             <div className="row mt-5">
                 <div className="col-12">
-                    <div className="card text-white text-center resume-page-main-details-education-be" style={{ borderRadius:'16px',borderTop:'10px solid white', borderBottom:'10px solid white'}}>
+                    <div className="card text-white text-center resume-page-main-details-current-place-of-employment" style={{ borderRadius:'16px',borderTop:'10px solid white', borderBottom:'10px solid white'}}>
                         <div className="card-body" style={{backgroundColor:'black'}}>
-                            <p className="fs-4">Education I have done</p>
-                            <p className="fs-3">Bachelor of Engineering in Electronics and Telecommunication</p>
+                            <p className="fs-4">Current Place of Employment</p>
+                            <p className="fs-3">Ixiono</p>
                             <p className="fs-3">From Sant Gadge Baba Amravati University</p>
                         </div>
                     </div>
