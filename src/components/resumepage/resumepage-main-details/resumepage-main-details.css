@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .resume-page-main-details-everything{
     background-color: black;
     color: black;
@@ -19,4 +20,7 @@
     align-content: center;
     list-style: none;
     font-size: 2em;
+}
+.resume-page-main-details-education-be{
+    font-family: 'Great Vibes', cursive, sans-serif;
 }
