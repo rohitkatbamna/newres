@@ -10,6 +10,9 @@ function Certificatepageall(){
                     <div className="row">
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
+                    <div className="row">
+                        <p></p>
+                    </div>
                 </div>
             </div>
             

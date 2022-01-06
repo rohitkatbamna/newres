@@ -9,6 +9,8 @@ import restapilogo from '../../../assets/api.png';
 import { Link } from "react-router-dom";
 
 function Resumepagemaindetails(){
+    const d = new Date();
+    d.getTime();
     return(
         <>
         <div className="container-fluid resume-page-main-details-everything pb-5">
@@ -72,6 +74,7 @@ function Resumepagemaindetails(){
                             <p className="fs-4">My Experience</p>
                             <p className="fs-3 fw-bold">React Developer</p>
                             <p className="fs-3">at Ixiono</p>
+                            <p className="fs-3">From September 2021 - Present</p>
                         </div>
                     </div>
                 </div>
@@ -79,6 +82,11 @@ function Resumepagemaindetails(){
             <div className="row">
                 <div className="col-12">
                     <p className="fs-3 text-white mt-3">Check out projects I have done <Link to='/projects' style={{color:'white'}}>Here</Link></p>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-12">
+                    <p className="fs-3 text-white mt-3">Download my resume <a href="https://drive.google.com/file/d/1Q3i9zdDapLgeKvWSMUB40SENRuLPI_gY/view?usp=sharing" download style={{color:'white'}}>Here</a></p>
                 </div>
             </div>
         </div>
