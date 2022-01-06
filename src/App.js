@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Resumelandingpage />} exact/>
+          <Route path='/certificates' element={<} />
         </Routes>
       </Router>
     </div>
