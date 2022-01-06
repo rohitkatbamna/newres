@@ -1,9 +1,9 @@
 import React from "react";
 
-function certificatepage(){
+function Certificatepage(){
     return(
         <>
         </>
     );
 }
-export default certificatepage;
+export default Certificatepage;
