@@ -11,18 +11,14 @@ function Certificatepageall(){
                     <div className="row">
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
-                    <div className="row rowofcertificates">
-                        <div className="col-sm-3 ms-1">
-                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
-                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
+                    <div className="row justify-content-center">
+                        <div className="col">
+                            <p className="fs-3 fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
                         </div>
-                        <div className="col-sm-3 ms-1">
-                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
-                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
-                        </div>
-                        <div className="col-sm-3 ms-1">
-                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
-                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
+                        <div className="col">
+                            <p className="fs-3 fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
                         </div>
                     </div>
                 </div>
