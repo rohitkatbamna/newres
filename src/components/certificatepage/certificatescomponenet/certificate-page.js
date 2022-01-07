@@ -1,7 +1,7 @@
 import React from "react";
 import Certificatepage from "../../../pages/certificatespage";
 import './certificate-page.css';
-import learnhtml from '../../../assets/learn-html.jpg';
+import learnhtml from '../../../assets/html/html.jpg';
 
 function Certificatepageall(){
     return(
@@ -11,9 +11,18 @@ function Certificatepageall(){
                     <div className="row">
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
-                    <div className="row">
-                        <div className="col-12 text-center">
-                            <p className="fs-3">Learn HTML <img src={learnhtml}  style={{height:'300px',width:'400px'}}/></p>
+                    <div className="row rowofcertificates">
+                        <div className="col-sm-3 ms-1">
+                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
+                        </div>
+                        <div className="col-sm-3 ms-1">
+                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
+                        </div>
+                        <div className="col-sm-3 ms-1">
+                            <p className="fs-3 text-center fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'300px',width:'400px'}}/>
                         </div>
                     </div>
                 </div>
