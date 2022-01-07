@@ -1,6 +1,7 @@
 import React from "react";
 import Certificatepage from "../../../pages/certificatespage";
 import './certificate-page.css';
+import learnhtml from '../../../assets/learn-html.jpg';
 
 function Certificatepageall(){
     return(
@@ -11,7 +12,9 @@ function Certificatepageall(){
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
                     <div className="row">
-                        <p></p>
+                        <div className="col-12 text-center">
+                            <p className="fs-3">Learn HTML <img src={learnhtml}  style={{height:'300px',width:'400px'}}/></p>
+                        </div>
                     </div>
                 </div>
             </div>
