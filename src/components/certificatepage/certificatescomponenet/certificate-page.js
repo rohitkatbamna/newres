@@ -21,6 +21,16 @@ function Certificatepageall(){
                             <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
                         </div>
                     </div>
+                    <div className="row">
+                        <div className="col">
+                            <p className="fs-3 fw-bold">Learn HTML</p>
+                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
+                        </div>
+                        <div className="col">
+                            <p className="fs-3 fw-bold">Learn CSS</p>
+                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
+                        </div>
+                    </div>
                 </div>
             </div>
             
