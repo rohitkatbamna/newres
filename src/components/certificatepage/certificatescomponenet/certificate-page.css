@@ -1,0 +1,7 @@
+@media only screen and (max-width: 916px){
+    .certificate-page-all-the-names-of-certificates-font-change{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

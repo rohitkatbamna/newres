@@ -22,64 +22,66 @@ function Certificatepageall(){
                     <div className="row">
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn HTML</p>
-                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
+                    <div className="certificate-page-all-the-names-of-certificates-font-change">
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn HTML</p>
+                                <img src={learnhtml}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn CSS</p>
+                                <img src={learncss}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn CSS</p>
-                            <img src={learncss}  style={{height:'400px',width:'500px'}}/>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn Bootstrap</p>
+                                <img src={learnbootstrap}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn Responsive Design</p>
+                                <img src={responsiveweb}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn Bootstrap</p>
-                            <img src={learnbootstrap}  style={{height:'400px',width:'500px'}}/>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Build Website with HTML, CSS and Github</p>
+                                <img src={htmlcssgit}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn JavaScript</p>
+                                <img src={javascript}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn Responsive Design</p>
-                            <img src={responsiveweb}  style={{height:'400px',width:'500px'}}/>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn Intermediate JavaScript</p>
+                                <img src={javascript2}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Building Interactive JavaScript Websites</p>
+                                <img src={injavascript}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Build Website with HTML, CSS and Github</p>
-                            <img src={htmlcssgit}  style={{height:'400px',width:'500px'}}/>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn Asynchronous JavaScript</p>
+                                <img src={asyncjava}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Learn React</p>
+                                <img src={reactc}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn JavaScript</p>
-                            <img src={javascript}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                    </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn Intermediate JavaScript</p>
-                            <img src={javascript2}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Building Interactive JavaScript Websites</p>
-                            <img src={injavascript}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                    </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn Asynchronous JavaScript</p>
-                            <img src={asyncjava}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Learn React</p>
-                            <img src={reactc}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                    </div>
-                    <div className="row mt-5 text-center">
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Create a front-end app with React</p>
-                            <img src={appreact}  style={{height:'400px',width:'500px'}}/>
-                        </div>
-                        <div className="col">
-                            <p className="fs-3 fw-bold">Python 3 Programming </p>
-                            <img src={py2program}  style={{height:'400px',width:'500px'}}/>
+                        <div className="row mt-5 text-center">
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Create a front-end app with React</p>
+                                <img src={appreact}  style={{height:'70%',width:'55%'}}/>
+                            </div>
+                            <div className="col">
+                                <p className="fs-3 fw-bold">Python 3 Programming </p>
+                                <img src={py2program}  style={{height:'70%',width:'55%'}}/>
+                            </div>
                         </div>
                     </div>
                 </div>
