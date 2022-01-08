@@ -40,12 +40,12 @@ function Moviesecondproject(){
                 </div>
                 <div className="row">
                     <div className="col-12">
-                    {movieresultsdata.map(moviedata =>{
+                    {
+                    movieresultsdata.map(moviedata =>{
                             return(
                                 <div>
-                                    <h2>{moviedata.display_title}</h2>
+                                    <h2 className="fw-bold">{moviedata.display_title}</h2>
                                     <h3>{moviedata.summary_short}</h3>
-                                    
                                 </div>
                             );
                         })
