@@ -1,5 +1,4 @@
-import { faSpotify } from "@fortawesome/free-brands-svg-icons";
-import { faBook, faFilm, faNewspaper, faVideo } from "@fortawesome/free-solid-svg-icons";
+import {  faFilm, faNewspaper} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";

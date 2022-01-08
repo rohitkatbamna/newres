@@ -22,67 +22,67 @@ function Certificatepageall(){
                     <div className="row">
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
-                    <div className="certificate-page-all-the-names-of-certificates-font-change">
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+                    <div className="certificate-page-all-the-names-of-certificates-font-change text-center">
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn HTML</p>
-                                <img src={learnhtml}  style={{height:'70%',width:'55%'}}/>
+                                <img src={learnhtml}  style={{height:'40%',width:'35%'}}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn CSS</p>
-                                <img src={learncss}  style={{height:'70%',width:'55%'}}/>
+                                <img src={learncss}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn Bootstrap</p>
-                                <img src={learnbootstrap}  style={{height:'70%',width:'55%'}}/>
+                                <img src={learnbootstrap}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn Responsive Design</p>
-                                <img src={responsiveweb}  style={{height:'70%',width:'55%'}}/>
+                                <img src={responsiveweb}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Build Website with HTML, CSS and Github</p>
-                                <img src={htmlcssgit}  style={{height:'70%',width:'55%'}}/>
+                                <img src={htmlcssgit}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn JavaScript</p>
-                                <img src={javascript}  style={{height:'70%',width:'55%'}}/>
+                                <img src={javascript}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn Intermediate JavaScript</p>
-                                <img src={javascript2}  style={{height:'70%',width:'55%'}}/>
+                                <img src={javascript2}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Building Interactive JavaScript Websites</p>
-                                <img src={injavascript}  style={{height:'70%',width:'55%'}}/>
+                                <img src={injavascript}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+     
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn Asynchronous JavaScript</p>
-                                <img src={asyncjava}  style={{height:'70%',width:'55%'}}/>
+                                <img src={asyncjava}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn React</p>
-                                <img src={reactc}  style={{height:'70%',width:'55%'}}/>
+                                <img src={reactc}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
-                        <div className="row mt-5 text-center">
-                            <div className="col">
+                      
+
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Create a front-end app with React</p>
-                                <img src={appreact}  style={{height:'70%',width:'55%'}}/>
+                                <img src={appreact}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                            <div className="col">
+                            <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Python 3 Programming </p>
-                                <img src={py2program}  style={{height:'70%',width:'55%'}}/>
+                                <img src={py2program}  style={{height:'40%',width:'35%' }}/>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

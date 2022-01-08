@@ -2,6 +2,7 @@ import React from "react";
 import Resumepagenavbar from "../../resumepage/resumepage-navbar/resumepage-navbar";
 import Projectsidebar from "../project-details-page-sidebar/project-details-page-sidebar";
 import { useState } from "react";
+import Mobilesidebarproject from "../project-details-page-mobile-sidebar/project-details-page-mobile-sidebar";
 
 function Moviesecondproject(){
     const [searchresults, setSearchresults] = useState('');
@@ -24,11 +25,12 @@ function Moviesecondproject(){
     return(
         <>
         <Resumepagenavbar />
+        <div className="project-sidebar-mobile"><Mobilesidebarproject /></div>
         <div className="d-flex">
-            <Projectsidebar />
+            <div className="project-sidebar-desktop"><Projectsidebar /></div>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-4 text-center">
+                    <div className="col-12 text-center">
                         <h1>Search Movies</h1>
                         <div className="input-group mb-3">
                             <input type="text" className="form-control" placeholder="Search Movies" aria-label="" aria-describedby="basic-addon1" onChange={handleChange}/>
