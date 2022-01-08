@@ -8,6 +8,7 @@ import responsiveweb from '../../../assets/html/4-responsive.jpg';
 import htmlcssgit from '../../../assets/html/5-htmlcssgit.jpg'
 import javascript from '../../../assets/html/6-js.jpg';
 import javascript2 from '../../../assets/html/7-js2.jpg';
+import injavascript from '../../../assets/html/8-in-js.jpg';
 
 function Certificatepageall(){
     return(
@@ -53,8 +54,8 @@ function Certificatepageall(){
                             <img src={javascript2}  style={{height:'400px',width:'500px'}}/>
                         </div>
                         <div className="col">
-                            <p className="fs-3 fw-bold">Learn CSS</p>
-                            <img src={learnhtml}  style={{height:'400px',width:'500px'}}/>
+                            <p className="fs-3 fw-bold">Building Interactive JavaScript Websites</p>
+                            <img src={injavascript}  style={{height:'400px',width:'500px'}}/>
                         </div>
                     </div>
                     <div className="row">
