@@ -45,7 +45,7 @@ function Moviesecondproject(){
                     {
                     movieresultsdata.map(moviedata =>{
                             return(
-                                <div className="card mt-5" style={{ borderRadius:'16px'}}>
+                                <div className="card mt-5 shadow" style={{ borderRadius:'16px'}}>
                                     <div className="card-body">
                                         <h2 className="fw-bold">{moviedata.display_title}</h2>
                                         <h3>{moviedata.summary_short}</h3>
