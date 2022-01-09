@@ -9,8 +9,8 @@ function Projectsidebar(){
         <>
         <div style={{borderRadius:'none',fontFamily:'Roboto, sans-serif'}}>
             <div>
-                <div className="card shadow position-fixed" style={{width:'195px',height:'1920px',backgroundColor:"#000000",borderRadius:'16px'}}>
-                    <div className="card-body position-fixed" style={{backgroundColor:"#000000",width:'195px',color:'white',height:'1920px', borderRadius:'16px'}}>
+                <div className="card shadow" style={{width:'195px',height:'1920px',backgroundColor:"#000000"}}>
+                    <div className="card-body position-fixed" style={{backgroundColor:"#000000",width:'195px',color:'white',height:'1920px'}}>
                         <div>
                             <h6 style={{color:'#E7E7E7'}}>Navigation</h6>
                             <ul style={{listStyle:'none',lineHeight:'2.5em',cursor:'pointer',fontSize:'17px',fontWeight:'900'}}>
