@@ -45,9 +45,11 @@ function Moviesecondproject(){
                     {
                     movieresultsdata.map(moviedata =>{
                             return(
-                                <div>
-                                    <h2 className="fw-bold">{moviedata.display_title}</h2>
-                                    <h3>{moviedata.summary_short}</h3>
+                                <div className="card">
+                                    <div className="card-body">
+                                        <h2 className="fw-bold">{moviedata.display_title}</h2>
+                                        <h3>{moviedata.summary_short}</h3>
+                                    </div>
                                 </div>
                             );
                         })
