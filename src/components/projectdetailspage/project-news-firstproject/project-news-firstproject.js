@@ -24,28 +24,31 @@ function Newsprojectfirst(){
         <div className="project-sidebar-mobile"><Mobilesidebarproject /></div>
         <div className="d-flex">
             <div className="project-sidebar-desktop"><Projectsidebar /></div>
-            <div className="container-fluid">
-                <div className="row text-center">
-                    <div className="col-12">
-                        <h1>Click button below To fetch Top Stories from world</h1>
-                        <button type="button" className="btn btn-dark" onClick={newsFunction}>Click Me Now</button>
+            <div className="container-fluid card">
+                <div className="card-body">
+                    <div className="row text-center">
+                        <div className="col-12">
+                            <h1>Click button below To fetch Top Stories from world</h1>
+                            <button type="button" className="btn btn-dark" onClick={newsFunction}>Click Me Now</button>
+                        </div>
                     </div>
-                </div>
-                <div className="row text-right mt-5">
-                    <div className="col-12">
-                        {news.map(newsdata =>
-                            {
-                            return(
-                                <div>
-                                    <h2 className="fw-bold">{newsdata.title}</h2>
-                                    <h3>{newsdata.abstract}</h3>
-                                </div>
-                            );
-                            })
-                        }
+                    <div className="row text-right mt-5">
+                        <div className="col-12">
+                            {news.map(newsdata =>
+                                {
+                                return(
+                                    <div className="card mt-5 shadow" style={{ borderRadius:'16px'}}>
+                                        <div className="card-body">
+                                            <h2 className="fw-bold">{newsdata.title}</h2>
+                                            <h3>{newsdata.abstract}</h3>
+                                        </div>
+                                    </div>
+                                );
+                                })
+                            }
+                        </div>
                     </div>
-                </div>
-
+                </div>        
             </div>
         </div>
         </>
