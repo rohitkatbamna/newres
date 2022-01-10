@@ -20,8 +20,38 @@ function Moviesecondproject(){
                 console.log(movieresultsdata)
             }
         )
-
     }
+    if(!movieresultsdata){
+        return(
+        <>
+            <Resumepagenavbar />
+            <div className="project-sidebar-mobile"><Mobilesidebarproject /></div>
+            <div className="d-flex">
+                <div className="project-sidebar-desktop"><Projectsidebar /></div>
+                <div className="container-fluid">
+                    <div className="row">
+                        <div className="col-12 text-center">
+                            <h1>Search Movies</h1>
+                            <div className="input-group mb-3">
+                                <input type="text" className="form-control" placeholder="Search Movies" aria-label="" aria-describedby="basic-addon1" onChange={handleChange}/>
+                                <div className="input-group-prepend">
+                                    <button className="btn btn-outline-secondary" type="button" onClick={moviesFunction}>Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <h1 className="fs-1 fw-bold">No results found</h1>
+                            <h2>Please try again</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+        );
+    }
+
     return(
         <>
         <Resumepagenavbar />
