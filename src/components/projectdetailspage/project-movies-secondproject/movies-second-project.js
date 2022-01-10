@@ -41,7 +41,7 @@ function Moviesecondproject(){
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 text-center">
                             <h1 className="fs-1 fw-bold">No results found</h1>
                             <h2>Please try again</h2>
                         </div>
