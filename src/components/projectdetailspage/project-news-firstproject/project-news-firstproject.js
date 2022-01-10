@@ -36,6 +36,7 @@ function Newsprojectfirst(){
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="technology">Technology</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="science">Science</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="home">All</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="health">Health</button>
                             </div>
                         </div>
                     </div>
