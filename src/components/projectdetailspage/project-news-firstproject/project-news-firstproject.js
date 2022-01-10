@@ -32,8 +32,10 @@ function Newsprojectfirst(){
                             <div className="d-flex flex-wrap justify-content-around">
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="world">World</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="us">US</button>
-                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="world">World</button>
-                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="us">US</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="business">Business</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="technology">Technology</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="science">Science</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="home">All</button>
                             </div>
                         </div>
                     </div>
