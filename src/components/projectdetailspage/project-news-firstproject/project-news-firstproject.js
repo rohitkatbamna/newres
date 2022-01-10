@@ -29,8 +29,12 @@ function Newsprojectfirst(){
                     <div className="row text-center">
                         <div className="col-12">
                             <h1>What Kind of News You Want To Fetch ?</h1>
-                            <button type="button" className="btn btn-dark btn-lg ms-5" onClick={newsFunction} value="world">World</button>
-                            <button type="button" className="btn btn-dark btn-lg ms-5" onClick={newsFunction} value="us">US</button>
+                            <div className="d-flex flex-wrap justify-content-around">
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="world">World</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="us">US</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="world">World</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="us">US</button>
+                            </div>
                         </div>
                     </div>
                     <div className="row text-right mt-5">
