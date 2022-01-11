@@ -23,16 +23,16 @@ function Certificatepageall(){
                         <p className="fs-1 fw-bold text-center col-12">My Certificates</p>
                     </div>
                     <div className="certificate-page-all-the-names-of-certificates-font-change text-center">
-
+                        <div className="row">
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn HTML</p>
-                                <img src={learnhtml}  style={{height:'40%',width:'35%'}}/>
+                                <img src={learnhtml}  style={{height:'60%',width:'45%'}}/>
                             </div>
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn CSS</p>
-                                <img src={learncss}  style={{height:'40%',width:'35%' }}/>
+                                <img src={learncss}  style={{height:'60%',width:'45%' }}/>
                             </div>
-
+                        </div>
 
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn Bootstrap</p>
