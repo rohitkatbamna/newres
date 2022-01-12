@@ -44,6 +44,10 @@ function Newsprojectfirst(){
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="sports">Sports</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="fashion">Fashion</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="arts">Arts</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="opinion">Opinions</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="movies">Movies</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="realestate">Reale State</button>
+
                             </div>
                         </div>
                     </div>
