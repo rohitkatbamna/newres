@@ -47,7 +47,13 @@ function Newsprojectfirst(){
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="opinion">Opinions</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="movies">Movies</button>
                                 <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="realestate">Reale State</button>
-
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="insider">Insider</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="food">Food</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="magazine">Magazine</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="nyregion">New york News</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="obituaries">Obituaries</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="politics">Politics</button>
+                                <button type="button" className="btn btn-dark btn-lg mt-5" onClick={newsFunction} value="sundayreview">Sunday Review</button>
                             </div>
                         </div>
                     </div>
