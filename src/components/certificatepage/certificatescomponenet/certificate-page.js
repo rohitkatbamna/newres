@@ -46,7 +46,7 @@ function Certificatepageall(){
 
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Build Website with HTML, CSS and Github</p>
-                                <img src={htmlcssgit}  style={{height:'60%',width:'45%' }}/>
+                                <img src={htmlcssgit}  style={{height:'60%',width:'45%' }} />
                             </div>
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn JavaScript</p>
