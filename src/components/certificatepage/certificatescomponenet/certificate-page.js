@@ -76,7 +76,7 @@ function Certificatepageall(){
 
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Create a front-end app with React</p>
-                                <img src={appreact}  style={{height:'60%',width:'45%'}}/>
+                                <img src={appreact}  style={{height:'60%',width:'45%'}} />
                             </div>
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Python 3 Programming </p>
