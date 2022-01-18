@@ -17,7 +17,7 @@ function App() {
           <Route path='/certificates' element={<Certificatepage />} />
           <Route path='/projects' element={<Newsprojectfirst />} />
           <Route path='/projects/news' element={<Newsprojectfirst />} />
-          <Route path='/projects/movies' element={<Moviesecondproject />} />
+          <Route path='/projects/movies' element={<Moviesecondproject />}/>
         </Routes>
       </Router>
     </div>
