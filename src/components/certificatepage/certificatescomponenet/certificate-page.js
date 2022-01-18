@@ -50,7 +50,7 @@ function Certificatepageall(){
                             </div>
                             <div className="col" style={{marginTop:'90px'}}>
                                 <p className="fs-3 fw-bold">Learn JavaScript</p>
-                                <img src={javascript}  style={{height:'60%',width:'45%' }}/>
+                                <img src={javascript}  style={{height:'60%',width:'45%' }} />
                             </div>
 
 
