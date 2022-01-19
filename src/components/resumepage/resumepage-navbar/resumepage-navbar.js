@@ -20,7 +20,7 @@ function Resumepagenavbar(){
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link to='/' style={{textDecoration:'none'}}><a className="nav-link" aria-current="page" >Home</a></Link>
+                            <Link to='/' style={{textDecoration:'none'}}><div className="nav-link" aria-current="page" >Home</div></Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/projects' style={{ textDecoration:'none'}}><a className="nav-link">Projects</a></Link>
