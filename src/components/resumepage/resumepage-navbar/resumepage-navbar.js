@@ -26,7 +26,7 @@ function Resumepagenavbar(){
                             <Link to='/projects' style={{ textDecoration:'none'}}><div className="nav-link">Projects</div></Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/certificates' style={{ textDecoration:'none'}}><a className="nav-link">Certificates</a></Link>
+                            <Link to='/certificates' style={{ textDecoration:'none'}}><div className="nav-link">Certificates</div></Link>
                         </li>
                     </ul>
                 </div>
