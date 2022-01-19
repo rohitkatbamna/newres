@@ -42,7 +42,7 @@ function Resumepagemaindetails(){
                                     <li><FontAwesomeIcon icon={faHtml5}/> HTML</li>
                                     <li><FontAwesomeIcon icon={faCss3Alt} /> CSS</li>
                                     <li><FontAwesomeIcon icon={faJsSquare}/> JavaScript</li>
-                                    <li className="d-flex flex-wrap justify-content-center align-items-center"><img src={restapilogo} style={{backgroundColor:'white',height:'30px',width:'30px', marginRight:'5px'}}/> REST API</li>
+                                    <li className="d-flex flex-wrap justify-content-center align-items-center"><img src={restapilogo} style={{backgroundColor:'white',height:'30px',width:'30px', marginRight:'5px'}} alt="rest api logo"/> REST API</li>
                                     <li><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</li>
                                     <li className="resume-page-main-details-what-skills-i-have-responsive-web-design"><FontAwesomeIcon icon={faMobile}/> <FontAwesomeIcon icon={faLaptop}/> <FontAwesomeIcon icon={faDesktop}/> Responsive Web Design</li>
                                     <li><FontAwesomeIcon icon={faReact}/> React</li>
