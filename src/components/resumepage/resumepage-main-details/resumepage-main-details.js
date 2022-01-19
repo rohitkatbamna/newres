@@ -46,7 +46,7 @@ function Resumepagemaindetails(){
                                     <li><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</li>
                                     <li className="resume-page-main-details-what-skills-i-have-responsive-web-design"><FontAwesomeIcon icon={faMobile}/> <FontAwesomeIcon icon={faLaptop}/> <FontAwesomeIcon icon={faDesktop}/> Responsive Web Design</li>
                                     <li><FontAwesomeIcon icon={faReact}/> React</li>
-                                    <li className="d-flex flex-wrap justify-content-center align-items-center"><img src={reduxlogo} style={{color:'white',height:'30px',width:'30px',marginRight:'5px'}}/> Redux</li>
+                                    <li className="d-flex flex-wrap justify-content-center align-items-center"><img src={reduxlogo} style={{color:'white',height:'30px',width:'30px',marginRight:'5px'}} alt="redux logo"/> Redux</li>
                                     <li><FontAwesomeIcon icon={faNodeJs}/> Node.js</li>
                                     <li><FontAwesomeIcon icon={faSass}/> SASS</li>
                                     <li><FontAwesomeIcon icon={faPython}/> Python</li>
